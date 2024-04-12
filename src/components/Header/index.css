@@ -1,0 +1,25 @@
+.navBar {
+  display: flex;
+
+  justify-content: flex-start;
+
+  padding: 20px;
+}
+
+.website-logo {
+  padding-left: 10px;
+
+  height: 60px;
+
+  width: 120px;
+}
+
+@media screen and (min-width: 786px) {
+  .website-logo {
+    padding-left: 20px;
+
+    height: 100px;
+
+    width: 200px;
+  }
+}
